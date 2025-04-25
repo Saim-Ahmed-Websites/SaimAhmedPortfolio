@@ -1,0 +1,228 @@
+
+@media screen and (max-width:772px) {
+    .aboutright img {
+        width: 450px;
+    }
+    .serviceCards h2 {
+        min-width: 130px;
+    }
+    .serviceCards p {
+        width: 310px;
+    }
+}
+
+
+@media screen and (max-width:680px) {
+    div#heroSec img{
+        height: 50%;
+    }
+}
+@media screen and (max-width:644px) {
+    .heroTxt h1 {
+        font-size: 65px;
+    }
+    .heroTxt h3 {
+        margin-top: -20px;
+    }
+    .heroBtn button {
+        padding: 10px 20px;
+        margin: 10px 0px 0px 0px;
+    }
+    .contactIcons {
+        padding: 30px 0px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:622px) {
+
+    :root {
+        --h2: 20px;
+        --h4: 12px;
+        --para: 16px;
+        --hedding: 40px;
+    }
+ 
+    #navbar .leftnav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #navbar .leftnav ul li {
+        padding: 15px 25px;
+        border: 2px solid var(--light-color);
+        width: 100%;
+        text-align: center;
+        background: var(--dark-color1);
+    }
+    
+    .leftnav {
+        position: absolute;
+        top: 85px;
+        right: 30px;
+        padding: 0;
+        transform: translateY(-350px);
+        transition: .5s;
+        opacity: 0;
+    }
+    li.burger {
+        display: block;
+    }
+    .rightnav ul {width: 100%;}
+
+.rightnav {
+    width: 100%;
+}
+
+
+.slide {
+    opacity: 1;
+    transform: translateY(0);
+}
+#navbar .leftnav ul li{
+    margin: 0;
+
+}
+#navbar{
+    height: 15px;
+}
+/* hero */
+div#heroSec {
+    /* height: 30vh; */
+}
+div#heroSec img{
+    height: unset;
+}
+.heroBtn button {
+    padding: 10px 20px;
+}
+.heroTxt h1 {
+    margin-top: -25px;
+    font-size: 60px;
+}
+.heroTxt h3 {
+    letter-spacing: 3px;
+    margin-top: -15px;
+}
+.contactIcons {
+    margin: 0px;
+}
+.contactIcons a {
+    margin: 0px 10px;
+}
+.contactIcons a i {
+    font-size: 22px;
+}
+
+/* about */
+.aboutright {
+    display: none;
+}
+
+.aboutleft {
+    width: 100%;
+}
+
+.abouttxt {
+    margin: 15px 0px;
+}
+
+.aboutleft h2 {
+    margin: 0;
+}
+
+.contactIcons {
+    padding: 20px 0px;
+}
+
+/* services */
+.servicesTop {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.servicesTop p {
+    text-align: start;
+}
+
+.serviceCards {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    text-align: start;
+}
+
+.serviceCards p {
+    padding: 10px 0px;
+    line-height: 25px;
+    width: 100%;
+}
+
+/* float */
+
+div#floatingCard .container h1 {
+    font-size: 30px;
+}
+
+div#floatingCard .container h4 {
+    letter-spacing: 1px;
+}
+
+
+/* portfolio */
+div#portfolioSec .container h1 {
+    text-align: start;
+    padding: 200px 0px 30px 0px;
+}
+
+.webCardContainer {
+    grid-template-columns: auto;
+    grid-row-gap: 30px;
+}
+
+}
+
+
+@media screen and (max-width:558px) {
+    :root{
+        --h2: 18px;
+        --h4: 12px;
+        --para: 16px;
+        --hedding: 40px;
+    }
+    #navbar{
+        padding: 20px 20px;
+    }
+    .heroTxt h1 {
+        font-size: 55px;
+    }
+    .heroTxt h3 {
+        letter-spacing: 2px;
+    }
+    .serviceCards {
+        width: 90%;
+    }
+    .serviceCards p{
+        width: 100%;
+    }
+    div#floatingCard .container h1{
+        margin: 0px 7px;
+        text-align: center;
+    }
+    div#floatingCard .container h4 {
+        letter-spacing: normal;
+        margin: 5px 5px 0px 5px;
+        text-align: center;
+    }
+    .copyright p {
+        font-size: var(--para);
+        text-align: center;
+    }
+}
+
+
+
+
+@media screen and (max-width:1080px) {
+    
+}
