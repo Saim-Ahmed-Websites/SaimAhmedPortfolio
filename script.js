@@ -10,12 +10,6 @@ window.addEventListener("scroll", ()=>{
 })
 //Navbar color changing
 
-// Preloader
-  window.addEventListener("load", () => {
-    document.getElementById("loader").classList.add("hidden");
-  });
-// Preloader
-
 // Servies card
 document.querySelectorAll('.drpdown').forEach(drop => {
   drop.addEventListener('click', function () {
