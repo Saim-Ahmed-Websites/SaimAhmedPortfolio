@@ -242,7 +242,7 @@ div#heroSec img {
     width: 60%;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom;
+    background-position: right;
     z-index: revert-layer;
 }
 div#aboutSec {
