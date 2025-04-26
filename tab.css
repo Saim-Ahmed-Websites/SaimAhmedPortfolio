@@ -122,6 +122,9 @@
         .aboutright img {
             width: 550px;
         }
+        .heroImg{
+            height: 140%;
+        }
         div#floatingCard .container button {
             padding: 18.75px;
             width: 225px;
@@ -178,7 +181,7 @@
             width: 500px;
         }
         .aboutright {
-            right: -9%;
+            right: -8%;
         }
 
         /* services */

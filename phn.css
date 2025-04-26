@@ -21,7 +21,9 @@
 }
 
 @media screen and (max-width:644px) {
-
+    .heroImg {
+        height: 142%;
+    }
     .heroTxt h3 {
         margin-top: -30px;
     }
@@ -57,10 +59,6 @@
     #navbar .leftnav ul {
         flex-direction: column;
         align-items: center;
-    }
-    
-    #navbar .leftnav ul li a {
-        padding: 15px 115px;
     }
 
     #navbar .leftnav ul li {
@@ -104,7 +102,7 @@
 /* hero */
 
 .heroImg{
-    height: 150%;
+    height: 160%;
 }
 .heroBtn button {
     padding: 10px 20px;
