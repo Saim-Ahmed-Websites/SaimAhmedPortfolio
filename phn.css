@@ -4,25 +4,26 @@
         width: 450px;
     }
     .serviceCards h2 {
-        min-width: 130px;
+        min-width: 177px;
     }
     .serviceCards p {
         width: 310px;
     }
 }
 
-
-@media screen and (max-width:680px) {
-    div#heroSec img{
-        height: 50%;
+@media screen and (max-width:700px) {
+    .serviceCards p {
+        width: 250px;
+    }
+    div#floatingCard .container h1 {
+        font-size: 40px;
     }
 }
+
 @media screen and (max-width:644px) {
-    .heroTxt h1 {
-        font-size: 65px;
-    }
+
     .heroTxt h3 {
-        margin-top: -20px;
+        margin-top: -30px;
     }
     .heroBtn button {
         padding: 10px 20px;
@@ -32,15 +33,25 @@
         padding: 30px 0px;
         margin: 0;
     }
+    .contactIcons a {
+        margin: 0px 12px;
+    }
+    div#floatingCard .container h1 {
+        font-size: 35px;
+    }
+    .webCardContainer {
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+    }
 }
 
 @media screen and (max-width:622px) {
 
     :root {
-        --h2: 20px;
-        --h4: 12px;
-        --para: 16px;
-        --hedding: 40px;
+        --h2: 15px;
+        --h4: 14px;
+        --para: 14px;
+        --hedding: 29px;
     }
  
     #navbar .leftnav ul {
@@ -48,9 +59,13 @@
         align-items: center;
     }
     
+    #navbar .leftnav ul li a {
+        padding: 15px 115px;
+    }
+
     #navbar .leftnav ul li {
-        padding: 15px 25px;
-        border: 2px solid var(--light-color);
+        padding: 15px 0px;
+        border: 2px solid var(--highlight-color);
         width: 100%;
         text-align: center;
         background: var(--dark-color1);
@@ -87,11 +102,9 @@
     height: 15px;
 }
 /* hero */
-div#heroSec {
-    /* height: 30vh; */
-}
-div#heroSec img{
-    height: unset;
+
+.heroImg{
+    height: 150%;
 }
 .heroBtn button {
     padding: 10px 20px;
@@ -165,7 +178,7 @@ div#floatingCard .container h1 {
 }
 
 div#floatingCard .container h4 {
-    letter-spacing: 1px;
+    letter-spacing: normal;
 }
 
 
@@ -179,7 +192,6 @@ div#portfolioSec .container h1 {
     grid-template-columns: auto;
     grid-row-gap: 30px;
 }
-
 }
 
 

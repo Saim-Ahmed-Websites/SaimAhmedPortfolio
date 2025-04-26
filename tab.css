@@ -1,4 +1,13 @@
+@media screen and (max-width:1300px) {
+    .serviceCards p{
+        width: 550px;
+    }
+}
+
 @media screen and (max-width:1200px) {
+    .serviceCards p{
+        width: 400px;
+    }
     div#heroSec{
         height: auto;
     }
@@ -7,7 +16,7 @@
     }
     .abouttxt p{
         width: 48%;
-        margin: 0px 10px 0px 0px;
+        margin: 0px 12.5px 0px 0px;
     }
     .aboutright img {
         width: 630px;
@@ -16,27 +25,30 @@
 
 @media screen and (max-width:1190px) {
 
-    .serviceCards p{
-        width: 413px;
-    }
-
     }
     @media screen and (max-width:1150px) {
         .contactIcons a{
-            margin: 0px 20px;
+            margin: 0px 25px;
         }
     }
     
     @media screen and (max-width:1080px) {
         
-        .contactIcons a{
-            margin: 0px 15px;
-        }
-        .contactIcons a i{
-            font-size: 32px;
+        :root{
+            --hedding:83px
         }
         .abouttxt p {
             line-height: 25px;
+        }
+        .serviceCards p {
+            width: 350px;
+        }
+        div#floatingCard .container h1{
+            font-size: 60px;
+        }
+        .webCardContainer{
+            grid-column-gap: 40px;
+            grid-row-gap: 40px;
         }
         
     }
@@ -49,31 +61,41 @@
     /* Main change */
     @media screen and (max-width:970px) {
         :root{
-            --h2: 18px;
-            --h4: 12px;
-            --para: 15px;
-            --hedding: 58px;
+            --h2: 19px;
+            --h4: 13px;
+            --para: 14px;
+            --hedding: 52px;
         }
+        .heroImg{
+            top: -110px;
+        }
+
+        .contactIcons a{
+            margin: 0px 15px;
+        }
+        
         div#floatingCard .container h1 {
-            font-size: 53px;
+            font-size:40px;
         }
         .heroTxt h1 {
-            font-size: 90px;
+            font-size: 80px;
+            margin-top: -40px;
+            margin-left: -8px;
         }
-        #navbar ul li a{
-            font-size: 13px;
+        .heroTxt h3{
+            margin-top: -35px;
         }
-        div#heroSec {
-            /* height: 60vh; */
+        .heroBtn button:nth-child(1) {
+            margin-right: 20px;
         }
         #navbar{
-            margin: 10px auto 0px auto;
+            margin: 12.5px auto 0px auto;
         }
         div#aboutSec {
-            padding: 30px 0px 0px 0px;
+            padding: 37.5px 0px 0px 0px;
         }
         .aboutleft h1{
-            margin-bottom: 25px;
+            margin-bottom: 31.25px;
         }
         .abouttxt {
             flex-direction: column;
@@ -82,32 +104,35 @@
         
         .abouttxt p {
             width: 80%;
-            margin-top: 15px;
+            margin-top: 18.75px;
             line-height: 20px;
         }
         .aboutleft h2{
             font-weight: 600;
             letter-spacing: 2.2px;
         }
+
+        .contactIcons a i {
+            font-size: 35px;
+        }
+    
         .serviceCards h2{
             min-width: 170px;
         }
         .aboutright img {
             width: 550px;
         }
-        div#floatingCard .container h1 {
-            font-size: 48px;
-        }
         div#floatingCard .container button {
-            padding: 15px;
-            width: 180px;
+            padding: 18.75px;
+            width: 225px;
         }
         .heroBtn button{
             padding: 15px 30px;
+            margin-right: 20px;
         }
         .webCardContainer{
-            grid-column-gap: 20px;
-            grid-row-gap: 20px;
+            grid-column-gap: 25px;
+            grid-row-gap: 25px;
         }
     }
 
@@ -115,21 +140,13 @@
         .aboutleft h1 {
             margin-bottom: 0;
         }
-        .aboutleft {
-            width: 80%;
-        }
         .aboutleft h2 {
             margin-bottom: 10px;
         }
     }
 
     @media screen and (max-width:834px) {
-        :root {
-            --h2: 14px;
-            --h4: 12px;
-            --para: 14px;
-            --hedding: 44px;
-        }
+
         .container{
             width: 85vw;
         }
@@ -141,17 +158,10 @@
         #navbar ul li a {
             font-size: 12px;
         }
-        .rightnav .number {
-            font-size: 12px;
-        }
         
         /* hero */
-        .heroImg{
-            height: 145%;
-        }
         .heroTxt h1{
             margin-top: -35px;
-            font-size: 70px;
         }
         .heroTxt h3{
             letter-spacing: 4px;
@@ -162,28 +172,17 @@
             margin-right: 10px;
         }
 
-        div#heroSec {
-            /* height: 50vh; */
-        }
-
         /* about */
-        .aboutright {
-            margin-right: -8%;
-        }
 
         .aboutright img {
             width: 500px;
         }
-
-        .contactIcons a i {
-            font-size: 27px;
+        .aboutright {
+            right: -9%;
         }
 
         /* services */
 
-        .serviceCards h1{
-            font-size: 35px;
-        }
         .serviceCards p {
             width: 363px;
         }
@@ -194,9 +193,6 @@
         /* floating */
         div#floatingCard .container h1 {
             font-size: 45px;
-        }
-        div#floatingCard .container h1 {
-            font-size: 40px;
         }
 
         /* portfolio */
